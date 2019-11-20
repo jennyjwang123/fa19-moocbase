@@ -213,8 +213,9 @@ times when a page is flushed:
   successfully flushed to disk.
 
 Recall from lecture that before a page is flushed, it must satisfy
-`pageLSN <= flushedLSN`. You will need to implement these two methods to satisfy
-that constraint and make sure that our tables are up to date.
+`pageLSN <= flushedLSN`. <strike>You will need to implement these two methods to satisfy
+that constraint and make sure that our tables are up to date.</strike> 
+These two methods are provided for you.
 
 ### Logging
 
